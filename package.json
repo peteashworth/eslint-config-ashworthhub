@@ -16,7 +16,7 @@
     "url": "https://github.com/AshworthHub/eslint/issues"
   },
   "homepage": "https://github.com/AshworthHub/eslint#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^3.9.1",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-loader": "^1.6.1",
