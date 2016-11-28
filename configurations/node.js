@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'base',
+  extends: 'ashworthhub',
   env: {
     node: true,
   }
