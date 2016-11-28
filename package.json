@@ -1,0 +1,29 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "ESLINT shared configurations",
+  "main": "configurations/base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshworthHub/eslint.git"
+  },
+  "author": "Pete Ashworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshworthHub/eslint/issues"
+  },
+  "homepage": "https://github.com/AshworthHub/eslint#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.7.1"
+  }
+}
