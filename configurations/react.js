@@ -5,12 +5,13 @@ module.exports = {
   },
   plugins: [
     'react',
-    'jsx-a11y'
+    'jsx-a11y',
   ],
   rules: {
     'react/jsx-filename-extension': 'off',
     'react/jsx-max-props-per-line': 'error',
     'react/jsx-closing-bracket-location': ['error', 'props-aligned'],
     'import/named': 'error',
-  }
+    'import/imports-first': 'off',
+  },
 };
