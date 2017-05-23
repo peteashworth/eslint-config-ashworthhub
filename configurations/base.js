@@ -23,7 +23,7 @@ module.exports = {
     'quote-props': ['error', 'consistent-as-needed'],
     'no-cond-assign': ['error', 'except-parens'],
     'radix': 'off',
-    'import/no-extraneous-dependencies': ['error', {devDependencies: ['**.*.test.js', '**/*.spec.js'] }],
+    'import/no-extraneous-dependencies': ['error', {devDependencies: ['**.*.test.js', '**/*.spec.js', '**/*.conf.js', '**/*.stories.js'], peerDependencies: true }],
     'no-confusing-arrow': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'object-property-newline': ['error', { allowMultiplePropertiesPerLine: false }],
