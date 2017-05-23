@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-      expermentalObjectReestSpread: true,
+      expermentalObjectRestSpread: true,
     },
   },
   extends: 'airbnb',
