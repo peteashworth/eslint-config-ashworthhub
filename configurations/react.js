@@ -11,7 +11,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-max-props-per-line': 'error',
     'react/jsx-closing-bracket-location': ['error', 'props-aligned'],
-    'import/named': 'error',
-    'import/imports-first': 'off',
+    'react/no-unused-prop-types': ['error', { skipShapeProps: true }],
+    'import/named': 'error'
   },
 };
