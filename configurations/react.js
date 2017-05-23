@@ -4,6 +4,7 @@ module.exports = {
     browser: true,
   },
   plugins: [
+    'babel',
     'react',
     'jsx-a11y',
   ],
