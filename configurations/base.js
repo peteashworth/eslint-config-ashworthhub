@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-      expermentalObjectRestSpread: true,
+      experimentalObjectRestSpread: true,
     },
   },
   extends: 'airbnb',
@@ -19,10 +19,11 @@ module.exports = {
     'promise',
   ],
   rules: {
-    'max-len': ['warn', 120, {ignoreComments: true}],
+    'max-len': ['warn', 120, { ignoreComments: true }],
     'quote-props': ['error', 'consistent-as-needed'],
     'no-cond-assign': ['error', 'except-parens'],
     'radix': 'off',
+    'no-else-return': 'error',
     'import/no-extraneous-dependencies': ['error', {devDependencies: ['**.*.test.js', '**/*.spec.js', '**/*.conf.js', '**/*.stories.js'], peerDependencies: true }],
     'no-confusing-arrow': 'off',
     'comma-dangle': ['error', 'always-multiline'],
