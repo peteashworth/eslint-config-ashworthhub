@@ -28,5 +28,10 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'object-property-newline': ['error', { allowMultiplePropertiesPerLine: false }],
-  }
+  },
+  "overrides": [
+    {
+      "excludedFiles": "*.test.js",
+    }
+  ]
 };
