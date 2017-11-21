@@ -3,9 +3,9 @@ module.exports = {
   env: {
     es6: true,
     jest: true,
-    jasmine: true
+    jasmine: true,
   },
-  parserOptions:{
+  parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
@@ -24,14 +24,15 @@ module.exports = {
     'no-cond-assign': ['error', 'except-parens'],
     'radix': 'off',
     'no-else-return': 'error',
-    'import/no-extraneous-dependencies': ['error', {devDependencies: ['**.*.test.js', '**/*.spec.js', '**/*.conf.js', '**/*.stories.js'], peerDependencies: true }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**.*.test.js', '**/*.spec.js', '**/*.conf.js', '**/*.stories.js'],
+      peerDependencies: true }],
     'no-confusing-arrow': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'object-property-newline': ['error', { allowMultiplePropertiesPerLine: false }],
   },
-  "overrides": [
+  overrides: [
     {
-      "excludedFiles": "*.test.js",
-    }
-  ]
+      excludedFiles: '*.test.js',
+    },
+  ],
 };
