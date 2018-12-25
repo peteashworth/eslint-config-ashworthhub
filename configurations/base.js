@@ -32,6 +32,7 @@ module.exports = {
   },
   overrides: [
     {
+      files: [ "src/*.js", "dist/*.js", "bin/*.js", "lib/*.js" ],
       excludedFiles: '*.test.js',
     },
   ],
