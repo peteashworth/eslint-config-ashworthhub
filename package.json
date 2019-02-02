@@ -1,10 +1,13 @@
 {
   "name": "eslint-config-ashworthhub",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "ESLINT shared configurations",
   "main": "configurations/base.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bump:patch": "npm --no-git-tag-version version patch",
+    "bump:minor": "npm --no-git-tag-version version minor",
+    "bump:major": "npm --no-git-tag-version version major",
+    "bump:premajor": "npm --no-git-tag-version version premajor"
   },
   "repository": {
     "type": "git",
