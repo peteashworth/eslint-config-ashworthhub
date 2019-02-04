@@ -25,7 +25,7 @@ module.exports = {
       ignorePropertyModificationsFor: ['req'],
     }],
     'react/destructuring-assignment': [
-      'warn',
+      'off',
       'always',
       {
         ignoreClassFields: true,
