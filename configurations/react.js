@@ -10,6 +10,10 @@ module.exports = {
   ],
   rules: {
     'generator-star-spacing': 'off',
+    'jsx-a11y/anchor-is-valid': ['error', {
+      components: ['Link'],
+      specialLink: ['to'],
+    }],
     'react/jsx-filename-extension': 'off',
     'react/jsx-max-props-per-line': 'error',
     'react/jsx-closing-bracket-location': ['error', 'props-aligned'],

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ashworthhub",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "ESLINT shared configurations",
   "main": "configurations/base.js",
   "scripts": {
